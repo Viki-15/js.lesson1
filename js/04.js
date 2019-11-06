@@ -10,4 +10,4 @@ const p = 3.1415;
 
 area = p * (Math.pow(radius, 2));
 
-alert(`area = ${area}`)
+alert(`area = ${area}`);

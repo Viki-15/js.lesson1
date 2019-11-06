@@ -5,10 +5,12 @@ let money;
 
 money = prompt("Enter money");
 
-const percent = 5 / 12;
+let yearPercent;
+
+yearPercent = money * 5 / 100;
 
 let amount;
 
-amount = ((money * percent) / 100) * 2;
+amount = (yearPercent * 90) / 365;
 
-alert(`Your gain will be ${amount}`)
+alert(`Your gain will be ${amount}`);

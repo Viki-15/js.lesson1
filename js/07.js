@@ -5,10 +5,10 @@ let size;
 
 size = prompt("enter size of your device");
 
-const file = 820
+const file = 820;
 
 let quantity;
 
-quantity = Math.trunc((size * 1024) / file)
+quantity = Math.trunc((size * 1024) / file);
 
-alert(`you can have ${quantity}`)
+alert(`you can have ${quantity}`);

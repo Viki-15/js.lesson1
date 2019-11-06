@@ -13,8 +13,4 @@ second = (number % 100 - third) / 10;
 
 first = (number - (number % 100 - third) - (number % 10)) / 100;
 
-
-
-
-
-alert(`${third}${second}${first}`)
+alert(`${third}${second}${first}`);

@@ -6,6 +6,6 @@ side = prompt("Enter side of square");
 
 let perimetr;
 
-perimetr = Math.pow(side, 2);
+perimetr = side * 4;
 
-alert(`Perimetr = ${perimetr}`)
+alert(`Perimetr = ${perimetr}`);

@@ -9,4 +9,4 @@ const yearNow = 2019;
 
 age = yearNow - year;
 
-alert(`Your age now ${age}`)
+alert(`Your age now ${age}`);

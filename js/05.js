@@ -13,4 +13,4 @@ let speed;
 
 speed = distsnce / time;
 
-alert(`Your speed must be ${speed}`)
+alert(`Your speed must be ${speed}`);

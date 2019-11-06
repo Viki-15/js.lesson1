@@ -4,4 +4,4 @@ let name
 
 name = prompt("Введите ваше имя");
 
-alert(`Hello, ${name}`)
+alert(`Hello, ${name}`);

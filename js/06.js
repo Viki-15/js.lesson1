@@ -11,4 +11,4 @@ let money;
 
 money = dollars * euro;
 
-alert(`you have ${money} euro`)
+alert(`you have ${money} euro`);

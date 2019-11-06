@@ -9,7 +9,7 @@ price = prompt("Enter price");
 
 let buy;
 
-buy = money / price;
+buy = Math.trunc(money / price);
 
 // let differance;
 
@@ -17,6 +17,6 @@ buy = money / price;
 
 let balance;
 
-balance = money - (buy * price);
+balance = Math.trunc(money - (buy * price));
 
-alert(` You can buy ${buy} and after your balance will be ${balance}`)
+alert(` You can buy ${buy} and after your balance will be ${balance}`);
